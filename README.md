@@ -14,7 +14,8 @@ Before you begin, ensure you have met the following requirements:
 
 Postman for testing the API endpoints.
 
-Getting Started
+Getting Started:
+
 1.Clone the repository:
 - git clone https://github.com/Divyabhardwaj04/flask-store-api.git
 
