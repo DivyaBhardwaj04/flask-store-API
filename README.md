@@ -29,15 +29,23 @@ The API will be available at `http://localhost:8000`.
 
 API Endpoints
 Get Store by Name
+
 `GET /store/<string:name>`: Retrieve information about a store by its name.
+
 Get Items for a Store
+
 `GET /store/<string:name>/item`: Retrieve items for a specific store by name.
+
 Create a New Store
+
 `POST /store`: Create a new store by providing a JSON payload with the store name.
+
+
 Create Items for a Store
 `POST /store/<string:name>/items`: Create items for a specific store by providing a JSON payload with the item name and price.
 
 ## Testing with Postman
+
 Install Postman if you haven't already.
 
 Open Postman and create requests to test the API endpoints listed above.
